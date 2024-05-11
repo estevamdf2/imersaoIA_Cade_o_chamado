@@ -12,8 +12,10 @@ Chat bot treinado com a [IA Gemini](https://aistudio.google.com/) do Google cujo
 
 Autores
 ---
-Marcos Sousa: [estevamdf2](https://github.com/estevamdf2)
-Lucas Alencar: []
+
+- Marcos Sousa: [estevamdf2](https://github.com/estevamdf2)
+ 
+ - Lucas Alencar: [lucas85cunha](https://github.com/lucas85cunha)
 
 
 💻 Tecnologias 💻
