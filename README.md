@@ -27,6 +27,8 @@ Demonstração
 
 Para o treinamento do chat bot usamos uma massa de teste disponível em:
 
+![prompt entrada](docs/img/1-prompt-entrada.png)
+
 Estrutura do arquivo:
 
 ```text
@@ -34,7 +36,9 @@ problema: <Breve descrição da solicitação>
 area: <Area para atendimento da demanda>
 --- # fim de tópico
 ```
-print:
+
+![entrada dados](docs/img/2-entrada-dados.png)
+
 Usamos a técnica **Few-shot Chain-of-Thought**: é uma maneira de fazer com que grandes modelos de linguagem (LLMs) 
 realizem raciocínios complexos. Ela funciona fornecendo ao modelo instruções passo a passo sobre como chegar a uma resposta,
 em vez de simplesmente pedir a resposta final.para um problema da sua vida real;
@@ -47,9 +51,11 @@ area:
 --- # fim de tópico
 ```
 
+![dados validacao](docs/img/3-dados-validacao.png)
+
 Desta forma, espera-se que o modelo informe qual a área correta para direcionar a sua requisição de atendimento.
 
-print
+![sugestao modelo](docs/img/4-resposta-modelo.png)
 
 Melhorias e Aprimoramentos
 ---
